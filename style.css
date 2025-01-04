@@ -1,16 +1,26 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-grow: 1;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color:#1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .header-links {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -19,5 +29,62 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #E5E7EB;
 }
+
+.hero {
+    background-color: #1F2937;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+ button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+ }
+
+ .main-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+ }
+
+ .content-middle {
+    background-color: #E5E7EB;
+ }
+
+ .quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+ }
+
+ .author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+ }
+
+ .cta {
+    background-color:#3882F6;
+    color: #F9FAF8;
+ }
+
+ .cta .title {
+    font-size: 24px;
+    font-weight: 900;
+ }
+
+ .cta .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+ }
