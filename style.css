@@ -36,10 +36,10 @@ a {
 .hero {
     background-color: #1F2937;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 32px;
-    padding: 64px;
+    padding: 64px 256px;
 }
 
 img {
