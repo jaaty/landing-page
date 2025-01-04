@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: space-around;
     background-color:#1F2937;
+    padding: 16px;
 }
 
 .logo {
@@ -42,8 +43,8 @@ a {
 }
 
 img {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 250px;
+    max-height: 250px;
     width: auto;
     height: auto;
 }
